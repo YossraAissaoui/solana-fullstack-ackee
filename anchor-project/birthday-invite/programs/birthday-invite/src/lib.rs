@@ -7,7 +7,7 @@ mod states;
 pub use instructions::*;
 pub use states::*;
 
-declare_id!("HxVoBJzahftigU7oqNEzRGtjs1k245MBkPjs2y8yHKzR");
+declare_id!("FLf5wn4AFa6ssQAhVYHjkEwoTyJPi7UQ7gZnv5jEWUJM");
 
 #[program]
 pub mod birthday_invite {

@@ -224,7 +224,7 @@ function RSVPSectionUI({ eventName }: { eventName: string }) {
               : 'bg-white/20 hover:bg-white/30 text-white'
           } disabled:opacity-50`}
         >
-          {isLoading ? '⏳' : '✓'} I'm Coming
+          {isLoading ? '⏳' : '✓'} I&apos;m Coming
         </button>
         <button
           onClick={() => handleRSVP('busy')}
@@ -235,7 +235,7 @@ function RSVPSectionUI({ eventName }: { eventName: string }) {
               : 'bg-white/20 hover:bg-white/30 text-white'
           } disabled:opacity-50`}
         >
-          {isLoading ? '⏳' : '✗'} I'm Busy
+          {isLoading ? '⏳' : '✗'} I&apos;m Busy
         </button>
       </div>
 

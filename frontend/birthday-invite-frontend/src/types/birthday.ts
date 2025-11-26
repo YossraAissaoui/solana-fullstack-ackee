@@ -1,6 +1,3 @@
-import { Program } from '@coral-xyz/anchor';
-import { Connection, PublicKey } from '@solana/web3.js';
-
 export interface BirthdayEvent {
   id: string;
   name: string;
@@ -24,16 +21,10 @@ export interface RSVPStatus {
   timestamp?: number;
 }
 
-export interface Wallet {
-  publicKey: PublicKey;
-  signTransaction: (tx: any) => Promise<any>;
-  signAllTransactions: (txs: any[]) => Promise<any[]>;
-}
-
 export interface ProgramContextType {
-  program: Program | null;
-  wallet: Wallet | null;
-  connection: Connection | null;
+  program: any;
+  wallet: any;
+  connection: any;
   loading: boolean;
   error: string | null;
 }
